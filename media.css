@@ -1,0 +1,124 @@
+
+/* Mac対応 1500px以下の条件*/
+@media (max-width: 1500px ) {
+  .slide{
+    margin:0 auto;
+  }
+  .header{
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    text-align: left;
+    width: 100%;
+    height: 85px;
+    border-top: 5px solid #006835;
+  }
+
+
+  .sanple img{
+   width:100%;
+   height:345px;
+  }
+  .content{
+    margin-left: 2.5%;
+  }
+  .list{
+    border-bottom: none;
+  }
+  .main-2{
+  border-bottom:none;
+}
+ .contents{
+   width: 423px;
+ }
+ /* facebookのとこ */
+.abc-2{
+   display: none;
+ }
+ .abc{
+   width: 100%;
+ }
+ .abc a{
+  margin: 0 auto;
+ }
+ .slide-text{
+   top: 400px;
+   background-color: rgba(255,255,255,0.8);
+  }
+ .last-main{
+
+   margin:0 -13px;
+   max-width:1500px;
+ }
+ .foto-last{
+   width: auto;
+   height: auto;
+ }
+ .contents img{
+   width: 100%;
+   height: auto;
+ }
+ .foto-last p{
+   position: absolute;
+   top:75%;
+ }
+ 
+
+}
+/* 1000px以下のサイズの条件！！ */
+@media (max-width: 1000px ) {
+  .slide{
+    margin:0 auto;
+  }
+  .header{
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    text-align: left;
+    width: 100%;
+    height: 85px;
+    border-top: 5px solid #006835;
+  }
+  .menu-list{
+    display: none;
+  }
+  .icon{
+    display: block;
+  }
+  .menu-list{
+    display: none;
+    }
+
+  .sanple img{
+   width:100%;
+   height:auto;
+  }
+  .content{
+    width:100%;
+    margin: 0 auto;
+  }
+  .list{
+    border-bottom: none;
+  }
+  .main-2{
+  border-bottom:none;
+}
+ .contents{
+   display: none;
+ }
+ .abc-2{
+   display: none;
+ }
+ .abc{
+   width: 100%;
+ }
+ .abc a{
+  margin: 0 auto;
+ }
+ .slide-text{
+   top: 400px;
+   background: #CCFFCC;
+   color: #777777;
+ }
+
+}
